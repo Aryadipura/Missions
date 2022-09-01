@@ -1,0 +1,139 @@
+/* default */
+div{
+    font-family: 'Source Sans Pro', sans-serif; 
+}  
+.navbar {
+   width: 100%;
+   height: 0;
+   background-color: white;
+   justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12%;
+    padding-left: 12%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px;
+}
+nav ul li a{
+    color : grey;
+    text-decoration: none;
+    font-size: larger;
+}
+nav ul li a:hover{
+    transition:n.3s;
+    text-decoration: underline;
+}
+.image-resize {
+    height: 20%;
+    width: 20%;
+}
+.bg {
+    padding: 1.5rem;
+    margin: 5px 5px;
+    border-radius: 4px;
+    background-color:lightcyan;
+}
+.button {
+    padding: 10px;
+    display: block;
+    width: max-content;
+    font-weight: 500;
+    text-decoration: none;
+    background: white;
+    box-shadow: 3px 3px 3px rgba(0.2, 0.2, 0.2, 0.2);
+    border-radius: 3px;
+    border: none;
+    color:black;
+}
+article {
+    max-width: 75%;
+    margin: 80px auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.headercontent{
+    color: orangered;
+    text-decoration: none;
+}   
+.headercontent:hover{
+    text-decoration: underline;
+}
+.isicontent{
+        font-size: 20px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 5px 0;
+    cursor: pointer;
+} 
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+}
+.image-resize2{
+    width: 128px;
+}
+.image-resize3{
+    width: 40px;
+}
+.email-box {
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.bg2 {
+    padding: 1.5rem;
+    margin: 5px 5px;
+    border-radius: 4px;
+    background-color:white;
+}
+.grey{
+    color: grey;
+}
+.aside {
+    width: 55%;
+    margin: 20px auto 20px;
+}
+.getstarted{
+    color: white;
+    background-color: green;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.navright{
+        flex: 1;
+        text-align: right;
+}
+.center{
+    justify-content: center;
+    text-align:center;
+}
